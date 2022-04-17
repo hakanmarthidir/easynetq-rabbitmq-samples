@@ -3,10 +3,14 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>request_responsse_rpc_sample_publish</RootNamespace>
+    <RootNamespace>send_receive_pattern_sample_publish</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyNetQ" Version="6.3.1" />
+  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\message-library\message-library.csproj" />
